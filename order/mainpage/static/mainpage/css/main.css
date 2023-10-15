@@ -1,0 +1,36 @@
+div {
+    background-color: yellowgreen;
+    height: 200px;
+
+}
+p {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+#i1{
+
+    left: 25%;
+    top: 25%;
+    display: inline;
+
+}
+#i2{
+    left: 50%;
+    top: 50%;
+    display: inline;
+    padding:100px;
+
+}
+#i3{
+    left: 75%;
+    top: 75%;
+    display: inline;
+
+}

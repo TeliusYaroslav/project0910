@@ -1,0 +1,14 @@
+{% extends 'appsettings/base.html' %}
+{% load static %}
+{% block links %}
+    <link rel="stylesheet" href="{% static 'shoppingcardpage/css/shopping.css' %}">
+{% endblock %}
+{% block content %}
+    <div class = 'wrapper'>
+        <img src="{% static 'mainpage/img/1.jpg' %}" alt="Тут могла бы быть ваша реклама, но вы нам не заплатили">
+        <p>
+            10000$
+        </p>
+        <a href="#" class="button">замовити</a>
+    </div>
+{% endblock %}

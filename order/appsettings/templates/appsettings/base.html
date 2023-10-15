@@ -9,14 +9,17 @@
     {% endblock %}
 </head>
 <body>
-    {% block content %}
-    {% endblock %}
-    <footer>
-        <a href="{% url 'main' %}"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-    </footer>
+    <header>
+        <a href="{% url 'main' %}">Головка сторiнка</a>
+        <a href="{% url 'contactpage' %}">Контакти</a>
+        <a href="{% url 'autoregister' %}">Регiстрацiя</a>
+        <a href="{% url 'productpage' %}">Товари</a>
+        <a href="{% url 'shoppingcardpage' %}">Корзина</a>
+    </header>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
 </body>
 </html>

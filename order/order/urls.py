@@ -17,8 +17,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 import mainpage.views as mainpage_views
+import productpage.views as productpage_views
+import autoregister.views as autoregister_views
+import contactpage.views as contactpage_views
+import shoppingcardpage.views as shopping_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', mainpage_views.mainpage, name = "main")
+    path('', mainpage_views.mainpage, name = "main"),
+    path('productpage/', productpage_views.productpage, name = "productpage"),
+    path('contactpage/',contactpage_views.contactpage, name = 'contactpage' ),
+    path('autoregister', autoregister_views.autoregister, name = "autoregister"),
+    path('shoppingcardpage', shopping_views.shopping, name = "shoppingcardpage")
 ]

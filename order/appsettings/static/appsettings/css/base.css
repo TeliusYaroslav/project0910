@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: block;
+    position: relative;
+    background-color: rgb(206, 206, 27);
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color: rgb(244, 239, 168);
+}
+a{
+    padding: 20px;
+}

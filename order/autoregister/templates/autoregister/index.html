@@ -1,0 +1,12 @@
+{% extends 'appsettings/base.html' %}
+{% load static %}
+{% block links %}
+    <link rel="stylesheet" href="{% static 'autoregister/css/style.css' %}">
+{% endblock %}
+{% block content %}
+    <div>
+        <input placeholder="Email">
+        <input placeholder="Password">
+        <button>signup</button>
+    </div>
+{% endblock %}

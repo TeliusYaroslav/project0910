@@ -1,0 +1,38 @@
+{% extends 'appsettings/base.html' %}
+{% load static %}
+{% block links %}
+<link rel="stylesheet" href="{% static 'productpage/css/productpage.css' %}">
+{% endblock %}
+
+{% block content %}
+<div id = d1>
+    <img src ="{% static 'productpage/img/11.jpg' %}" alt="11">
+    <p>Набор осенней одежды "вай вася"</p>
+    <p id = p1>1000уе</p>
+</div>
+
+<div id = d2>
+    <img src="{% static 'productpage/img/22.jpg' %}" alt="22">
+    <p>Зеленый кардиганный свитер<br></p>
+    <p id = p2>12345$</p>
+</div>
+
+<div id = d3>
+    <img src="{% static 'productpage/img/33.jpg' %}" alt="33">
+    <p>Куртка "камень Остров" Patch Program <br> </p>
+    <p id = p3>333333$</p>
+    
+</div>
+
+
+<div id = d4>
+    <img src="{% static 'productpage/img/44.jpg' %}" alt="44">
+    <p>Курта SC Company винтаж без линз</p>
+    <p id = p4>1488$</p>
+</div>
+
+<div id = d5>
+    <img src="{% static 'productpage/img/55.jpg' %}" alt="55">
+    <p>куртака "вай брат сам такую ношу"<br> </p>
+    <p id = p5>300$</p>
+{% endblock %}
