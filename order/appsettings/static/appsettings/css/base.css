@@ -15,6 +15,7 @@ header {
 body {
     background-color: rgb(244, 239, 168);
 }
-a{
+a {
     padding: 20px;
+    font-size: 20px;
 }

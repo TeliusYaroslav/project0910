@@ -1,36 +1,33 @@
-div {
-    background-color: yellowgreen;
+.text1 {
+    background: linear-gradient( to bottom right,rgb(214, 184, 9) , rgb(196, 140, 35) ,rgb(30, 144, 30));
     height: 200px;
-
+    margin-top: 50px;
+    border-radius: 30px;
 }
+
+.image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+
+
 p {
     height: 10em;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-size: 20; 
+    font-weight: bold;
 }
 img{
     height: 400px;
-    width: 400px;
+    width: 400px;   
+    padding: 50px;
 }
-#i1{
 
-    left: 25%;
-    top: 25%;
-    display: inline;
-
-}
-#i2{
-    left: 50%;
-    top: 50%;
-    display: inline;
-    padding:100px;
-
-}
-#i3{
-    left: 75%;
-    top: 75%;
-    display: inline;
-
-}
